@@ -1,0 +1,231 @@
+body {
+    background:#49536c;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.head
+{
+    width: auto;
+    height:auto;
+    background-color: #49536c;
+}
+
+ .head h1
+ {
+    margin: auto;
+    font-size:10vh;
+    text-align: center;
+    padding-top: 3vh;
+ }
+
+ .palka
+ {
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+ }
+
+ .sinopsis
+ {
+     margin-top: 1vh;
+     background-color:#49536c;
+     text-align: center;
+     height: auto;
+     width: auto;
+ }
+
+ .sinopsis h2
+ {
+     font-size:6vh;
+     margin: auto;
+ }
+.sinopsis p
+ {
+     font-size:4vh;
+ }
+
+ .vvod 
+ {
+    width: auto;
+    height: auto;
+    text-align: center;
+ }
+
+ .photo
+ {
+    margin:auto auto;
+    min-width: 500px;
+    max-width: 90%;
+    text-align: center;
+ }
+
+
+ .Block-of-text
+ {
+     background-color: #49536c;
+     text-align: center;
+ }
+
+ .zagolovok h1 
+ {
+    font-size: 5vh;
+ }
+
+ .zagolovok p
+{
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+}
+
+.flexim
+{
+    height:auto;
+    display:flex;
+    justify-content: center;
+}
+
+.SAST
+{
+    text-align: center;
+    width:50%;
+    color: white;
+    background-color: #49536c ;
+    font-size: larger;
+}
+
+.flex2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.SAST a
+{
+    position: center;
+    color: white;
+    font-size: 5vh;
+    top: 3vh;
+    right: 30vh;
+}
+
+.SAST img
+{
+    height:30vh;
+}
+
+.DAST
+{
+    text-align: center;
+    width: 50%;
+    font-size: larger;
+    background-color: #49536c;
+    color: white;
+
+}
+
+.DAST a
+{
+    position: center;
+    color: white;
+    font-size: 5vh;
+    top: 3vh;
+    right: 30vh;
+}
+
+.text
+{
+    margin:auto 15vh;
+}
+
+.DAST p
+{
+
+    text-align: center;
+}
+
+.DAST img
+{
+    height: 30vh;
+}
+
+.sdlc
+{
+    margin: auto    auto;
+   color: white;
+   text-align: center;
+   height:auto;
+}
+
+.sdlc h1
+{
+   font-size: 5vh;
+}
+
+.sdlc h2
+{
+   font-size: 5vh;
+}
+
+
+.sdlc p
+{
+    
+    text-align:center;
+    font-size: 20px;
+}
+
+.stadii 
+{
+    font-size: 3vh;
+    color: white;
+}
+
+.spisok
+{
+    display: flex;
+    margin: 0 -5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item
+{
+    flex: 1 1 auto;
+    margin: 0 5px;
+    flex-basis: 50vh;
+}
+
+.stadii img
+{
+    height: 30vh;
+}
+
+.Tutorial h1
+{
+    font-size: 5vh;
+}
+
+.Tutorial
+{
+    text-align: center;
+    font-size: 3vh;
+}
+
+.Tutorial a
+{
+    color:white;
+}
+
+.Tutorial p
+{
+    text-align: center;
+}

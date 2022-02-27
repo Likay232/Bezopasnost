@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAST</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>
+            Static Application Security Testing
+        </h1>
+        <div class="sinopsis">
+            <div class="vvod">
+                <h2>
+                    Рукодство по использованию NodeJsScan
+                </h2>
+                <p>
+                    NodeJsScan - сканер статического кода, используется для поиска недостатков безопасности в приложениях Node.js
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="Tutorial">
+                <h1>Шаг 1</h1>
+                <img src="postgres.png" alt="" style = "height:30vh">
+                <p>Необходимо установить Postgres, а также настроить его в core/settings.py</p>
+                <h1>Шаг 2</h1>
+                <img src="GitHub.png" alt="" style = "height:128px">
+                <p>Установка NodeJsScan из репозитория </p><a href="https://github.com/ajinabraham/NodeJsScan">GitHub</a>
+                <h1>Шаг 3</h1>
+                <p>Необходимо перейти в каталог NodeJsScan и установить всё необходимое при помощи: <br>pip3 install -r requirements.txt</p>
+                <img src="kod2.jpg" alt="" style = "height:30vh">
+                <h1>Шаг 4</h1>
+                <p>Создаем все необходимые записи в базе данных<br>Команда: python3 migrate.py</p>
+                <h1>Шаг 5</h1>
+                <p>python3 app app.py <br>для того чтобы провести тестирование среды</p>
+                <img src="kod3.jpg" alt="" style = "height:30vh">
+                <h1>Шаг 6</h1>
+                <p>Для корректной работы устанавливаем gunicorn <br> Команда: gunicorn - b 0.0.0.0:9090 app:app</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
